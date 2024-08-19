@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/04 Знакомство с классами написание своих классов, конструкторы.iml" filepath="$PROJECT_DIR$/04 Знакомство с классами написание своих классов, конструкторы.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0502/task0502.iml" filepath="$PROJECT_DIR$/task0502/task0502.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0503/task0503.iml" filepath="$PROJECT_DIR$/task0503/task0503.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0507/task0507.iml" filepath="$PROJECT_DIR$/task0507/task0507.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0509/task0509.iml" filepath="$PROJECT_DIR$/task0509/task0509.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0510/task0510.iml" filepath="$PROJECT_DIR$/task0510/task0510.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0515/task0515.iml" filepath="$PROJECT_DIR$/task0515/task0515.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0517/task0517.iml" filepath="$PROJECT_DIR$/task0517/task0517.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0521/task0521.iml" filepath="$PROJECT_DIR$/task0521/task0521.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0523/task0523.iml" filepath="$PROJECT_DIR$/task0523/task0523.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0525/task0525.iml" filepath="$PROJECT_DIR$/task0525/task0525.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0526/task0526.iml" filepath="$PROJECT_DIR$/task0526/task0526.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0527/task0527.iml" filepath="$PROJECT_DIR$/task0527/task0527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0529/task0529.iml" filepath="$PROJECT_DIR$/task0529/task0529.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0531/task0531.iml" filepath="$PROJECT_DIR$/task0531/task0531.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0532/task0532.iml" filepath="$PROJECT_DIR$/task0532/task0532.iml" />
+    </modules>
+  </component>
+</project>

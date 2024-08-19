@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/05 Знакомство с объектами написание своих объектов, время жизни, статические переменные.iml" filepath="$PROJECT_DIR$/05 Знакомство с объектами написание своих объектов, время жизни, статические переменные.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0601/task0601.iml" filepath="$PROJECT_DIR$/task0601/task0601.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0603/task0603.iml" filepath="$PROJECT_DIR$/task0603/task0603.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0606/task0606.iml" filepath="$PROJECT_DIR$/task0606/task0606.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0607/task0607.iml" filepath="$PROJECT_DIR$/task0607/task0607.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0608/task0608.iml" filepath="$PROJECT_DIR$/task0608/task0608.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0609/task0609.iml" filepath="$PROJECT_DIR$/task0609/task0609.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0610/task0610.iml" filepath="$PROJECT_DIR$/task0610/task0610.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0612/task0612.iml" filepath="$PROJECT_DIR$/task0612/task0612.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0614/task0614.iml" filepath="$PROJECT_DIR$/task0614/task0614.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0616/task0616.iml" filepath="$PROJECT_DIR$/task0616/task0616.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0617/task0617.iml" filepath="$PROJECT_DIR$/task0617/task0617.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0621/task0621.iml" filepath="$PROJECT_DIR$/task0621/task0621.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0622/task0622.iml" filepath="$PROJECT_DIR$/task0622/task0622.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01 Вывод на экран, типы String и int, переменные, методы, классы.iml" filepath="$PROJECT_DIR$/01 Вывод на экран, типы String и int, переменные, методы, классы.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0107/task0107.iml" filepath="$PROJECT_DIR$/task0107/task0107.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0108/task0108.iml" filepath="$PROJECT_DIR$/task0108/task0108.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0121/task0121.iml" filepath="$PROJECT_DIR$/task0121/task0121.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0127/task0127.iml" filepath="$PROJECT_DIR$/task0127/task0127.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0128/task0128.iml" filepath="$PROJECT_DIR$/task0128/task0128.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0130/task0130.iml" filepath="$PROJECT_DIR$/task0130/task0130.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0131/task0131.iml" filepath="$PROJECT_DIR$/task0131/task0131.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0132/task0132.iml" filepath="$PROJECT_DIR$/task0132/task0132.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0133/task0133.iml" filepath="$PROJECT_DIR$/task0133/task0133.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0134/task0134.iml" filepath="$PROJECT_DIR$/task0134/task0134.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0202/task0202.iml" filepath="$PROJECT_DIR$/task0202/task0202.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0204/task0204.iml" filepath="$PROJECT_DIR$/task0204/task0204.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0205/task0205.iml" filepath="$PROJECT_DIR$/task0205/task0205.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0207/task0207.iml" filepath="$PROJECT_DIR$/task0207/task0207.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0208/task0208.iml" filepath="$PROJECT_DIR$/task0208/task0208.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0209/task0209.iml" filepath="$PROJECT_DIR$/task0209/task0209.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0210/task0210.iml" filepath="$PROJECT_DIR$/task0210/task0210.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0212/task0212.iml" filepath="$PROJECT_DIR$/task0212/task0212.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0213/task0213.iml" filepath="$PROJECT_DIR$/task0213/task0213.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0214/task0214.iml" filepath="$PROJECT_DIR$/task0214/task0214.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task0217/task0217.iml" filepath="$PROJECT_DIR$/task0217/task0217.iml" />
+    </modules>
+  </component>
+</project>
