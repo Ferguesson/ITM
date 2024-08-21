@@ -17,7 +17,7 @@ Requirements:
 4. Все методы класса Beach, кроме метода main, должны быть синхронизированы.
 */
 
-public class Beach {
+public class Beach implements Comparable<Beach> {
     private String name;      //название
     private float distance;   //расстояние
     private int quality;    //качество
@@ -28,31 +28,37 @@ public class Beach {
         this.quality = quality;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public float getDistance() {
-        return distance;
-    }
-
-    public void setDistance(float distance) {
-        this.distance = distance;
-    }
-
-    public int getQuality() {
-        return quality;
-    }
-
-    public void setQuality(int quality) {
-        this.quality = quality;
-    }
 
     public static void main(String[] args) {
 
+    }
+
+    public synchronized String getName() {
+        return name;
+    }
+
+    public synchronized void setName(String name) {
+        this.name = name;
+    }
+
+    public synchronized float getDistance() {
+        return distance;
+    }
+
+    public synchronized void setDistance(float distance) {
+        this.distance = distance;
+    }
+
+    public synchronized int getQuality() {
+        return quality;
+    }
+
+    public synchronized void setQuality(int quality) {
+        this.quality = quality;
+    }
+
+    @Override
+    public synchronized int compareTo(Beach o) {
+        return Integer.compare(this.quality, o.quality) + Float.compare(this.distance, o.distance);
     }
 }

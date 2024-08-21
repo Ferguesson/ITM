@@ -21,8 +21,24 @@ public class Solution {
         new Thread(new CountUpRunnable(), "Увеличиваем").start();
     }
 
-    public static class CountUpRunnable {
-        //Add your code here - добавь код тут
+    public static class CountUpRunnable implements Runnable {
+        private int countIndexUp = 1;
+
+        public void run() {
+            try {
+                while (true) {
+                    System.out.println(toString());
+                    countIndexUp += 1;
+                    if (countIndexUp == number) return;
+                    Thread.sleep(500);
+                }
+            } catch (InterruptedException e) {
+            }
+        }
+
+        public String toString() {
+            return Thread.currentThread().getName() + ": " + countIndexUp;
+        }
     }
 
 
@@ -45,4 +61,6 @@ public class Solution {
             return Thread.currentThread().getName() + ": " + countIndexDown;
         }
     }
+
+
 }

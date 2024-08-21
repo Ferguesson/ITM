@@ -24,9 +24,10 @@ Requirements:
 
 import task1631.common.ImageReader;
 import task1631.common.ImageTypes;
+import task1631.common.ImageReaderFactory;
 
 public class Solution {
     public static void main(String[] args) {
-        ImageReader reader = ImageReaderFactory.getImageReader(ImageTypes.JPG);
+        ImageReader reader = ImageReaderFactory.getImageReader(ImageTypes.PNG);
     }
 }

@@ -59,7 +59,14 @@ public class Solution {
         private List<String> result = new ArrayList<String>();
 
         public void run() {
-            //напишите тут ваш код
+            try {
+                while(!isInterrupted()) {
+                    result.add(reader.readLine());
+                    readStringCount.incrementAndGet();
+                }
+            } catch (IOException e) {
+
+            }
         }
 
         @Override

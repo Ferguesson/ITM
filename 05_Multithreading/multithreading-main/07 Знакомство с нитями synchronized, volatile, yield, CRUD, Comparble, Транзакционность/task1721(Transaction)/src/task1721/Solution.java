@@ -2,6 +2,7 @@ package task1721;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -37,9 +38,61 @@ public class Solution {
     public static List<String> forRemoveLines = new ArrayList<String>();
 
     public static void main(String[] args) {
+        InputStreamReader ioReader = new InputStreamReader(System.in);
+        BufferedReader bfReader = new BufferedReader(ioReader);
+
+        try {
+            String fileName1 = bfReader.readLine();
+            String fileName2 = bfReader.readLine();
+
+            bfReader.close();
+
+
+            FileReader flReader = new FileReader(fileName1);
+            bfReader = new BufferedReader(flReader);
+            while (true) {
+                String buffer = bfReader.readLine();
+                if (buffer != null) {
+                    allLines.add(buffer);
+                } else {
+                    break;
+                }
+            }
+            flReader.close();
+            bfReader.close();
+
+            flReader = new FileReader(fileName2);
+            bfReader = new BufferedReader(flReader);
+            while (true) {
+                String buffer = bfReader.readLine();
+                if (buffer != null) {
+                    forRemoveLines.add(buffer);
+                } else {
+                    break;
+                }
+            }
+            flReader.close();
+            bfReader.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            new Solution().joinData();
+        } catch (CorruptedDataException e) {
+            System.out.println("CorruptedDataException occured. allLines was cleared of data.");
+        }
+
     }
 
     public void joinData() throws CorruptedDataException {
-
+        if (allLines.containsAll(forRemoveLines)) {
+            allLines.removeAll(forRemoveLines);
+            System.out.println("All lines were removed successfully.");
+        } else {
+            allLines.clear();
+            throw new CorruptedDataException();
+        }
     }
 }

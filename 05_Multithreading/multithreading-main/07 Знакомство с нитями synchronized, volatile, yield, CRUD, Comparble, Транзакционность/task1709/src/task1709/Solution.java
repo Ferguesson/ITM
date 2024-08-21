@@ -14,7 +14,7 @@ Requirements:
 */
 
 public class Solution {
-    public static int proposal = 0;
+    public static volatile int proposal = 0;
 
     public static void main(String[] args) {
         new AcceptProposal().start();

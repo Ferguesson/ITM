@@ -1,5 +1,6 @@
 package task1710;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -58,12 +59,128 @@ Requirements:
 public class Solution {
     public static List<Person> allPeople = new ArrayList<Person>();
 
+    public static SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MM/yyyy", Locale.ENGLISH);
+    public static SimpleDateFormat outputFormat = new SimpleDateFormat("dd-MMM-yyyy", Locale.ENGLISH);
+
+
     static {
         allPeople.add(Person.createMale("Иванов Иван", new Date()));  //сегодня родился    id=0
         allPeople.add(Person.createMale("Петров Петр", new Date()));  //сегодня родился    id=1
     }
 
+
     public static void main(String[] args) {
         //напишите тут ваш код
+        if (args.length < 2 || args.length > 5) {
+            System.out.println("Invalid number of arguments.");
+            return;
+        }
+
+
+        String logicArgument = args[0];
+        int id;
+        String name;
+        String sex;
+        String date;
+
+
+        //main else-if choice
+        if (logicArgument.equals("-c")) {
+            name = args[1];
+            sex = args[2];
+            date = args[3];
+
+            create(name, sex, date);
+
+
+        } else if (logicArgument.equals("-r")) {
+            id = Integer.parseInt(args[1]);
+
+            read(id);
+
+
+        } else if (logicArgument.equals("-u")) {
+            id = Integer.parseInt(args[1]);
+            name = args[2];
+            sex = args[3];
+            date = args[4];
+
+            update(id, name, sex, date);
+
+
+        } else if (logicArgument.equals("-d")) {
+            id = Integer.parseInt(args[1]);
+            delete(id);
+        }
+    }
+
+
+    //Methods declaration.
+    public static void create(String name, String sex, String date) {
+        Date birthDate = new Date();
+        try {
+            birthDate = inputFormat.parse(date);
+        } catch (ParseException e) {
+            System.out.println("Invalid Date format.");
+        }
+
+        if (sex.equals("м")) {
+            allPeople.add(Person.createMale(name, birthDate));
+        } else if (sex.equals("ж")) {
+            allPeople.add(Person.createFemale(name, birthDate));
+        } else {
+            System.out.println("Invalid format.");
+        }
+        System.out.println(allPeople.size() - 1);
+    }
+
+    public static void read(int id) {
+        Person currenPerson = allPeople.get(id);
+
+        String name = currenPerson.getName();
+        String sex;
+        String birthDate = outputFormat.format(currenPerson.getBirthDate());
+
+        switch (currenPerson.getSex()) {
+            case MALE:
+                sex = "м";
+                break;
+            case FEMALE:
+                sex = "ж";
+                break;
+            default:
+                sex = "unknown";
+        }
+        System.out.println(name + " " + sex + " " + birthDate);
+    }
+
+    public static void update(int id, String name, String sex, String date) {
+        Person currenPerson = allPeople.get(id);
+
+        currenPerson.setName(name);
+
+        if (sex.equals("м")) {
+            currenPerson.setSex(Sex.MALE);
+        } else if (sex.equals("ж")) {
+            currenPerson.setSex(Sex.FEMALE);
+        } else {
+            System.out.println("Invalid format");
+            return;
+        }
+
+        try {
+            currenPerson.setBirthDate(inputFormat.parse(date));
+        } catch (ParseException e) {
+            System.out.println("Invalid Date format.");
+        }
+    }
+
+    public static void delete(int id) {
+        Person currenPerson = allPeople.get(id);
+
+        currenPerson.setName(null);
+        currenPerson.setSex(null);
+        currenPerson.setBirthDate(null);
     }
 }
+
