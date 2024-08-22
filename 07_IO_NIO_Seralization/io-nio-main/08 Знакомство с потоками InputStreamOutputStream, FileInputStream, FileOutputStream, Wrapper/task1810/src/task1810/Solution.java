@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Scanner;
 
 /* 
 DownloadException
@@ -22,7 +23,20 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) throws DownloadException {
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            String fileName = scanner.nextLine();
 
+            try (FileInputStream fis = new FileInputStream(fileName)) {
+                if (fis.available() < 1000) {
+                    System.out.println("The file is less then 1000 bytes.");
+                    throw new DownloadException();
+                }
+                else System.out.println("The file is " + fis.available() + " bytes.");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     public static class DownloadException extends Exception {

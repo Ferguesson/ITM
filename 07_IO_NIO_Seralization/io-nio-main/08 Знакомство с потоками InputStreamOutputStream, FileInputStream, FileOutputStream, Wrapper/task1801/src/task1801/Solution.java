@@ -1,11 +1,10 @@
 package task1801;
 
-import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 /* 
-Максимальный байт
+Максимальный байт.
 Ввести с консоли имя файла.
 Найти максимальный байт в файле, вывести его на экран.
 Закрыть поток ввода-вывода.
@@ -19,5 +18,20 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in);
+        String fileName = sc.nextLine();
+
+        FileInputStream fis = new FileInputStream(fileName);
+
+        int maxByte = 0;
+        while (fis.available() > 0) {
+            int current = fis.read();
+            if (current > maxByte) {
+                maxByte = current;
+            }
+        }
+        fis.close();
+
+        System.out.println(maxByte);
     }
 }

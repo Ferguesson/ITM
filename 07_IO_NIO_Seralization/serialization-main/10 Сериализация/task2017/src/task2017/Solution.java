@@ -20,10 +20,15 @@ Requirements:
 
 public class Solution {
     public A getOriginalObject(ObjectInputStream objectStream) {
+        try {
+            return (Solution.A) objectStream.readObject();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return null;
     }
 
-    public class A {
+    public class A implements Serializable {
     }
 
     public class B extends A {

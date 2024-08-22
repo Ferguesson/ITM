@@ -25,5 +25,33 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) {
+        BufferedReader BFreader = new BufferedReader(new InputStreamReader(System.in));
+
+        String fileFrom = "";
+        String fileTo = "";
+        try {
+            fileFrom = BFreader.readLine();
+            fileTo = BFreader.readLine();
+            BFreader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        try (FileReader fileReader = new FileReader(fileFrom);
+             FileWriter fileWriter = new FileWriter(fileTo)) {
+            ArrayList<Integer> characters = new ArrayList<>();
+
+            while (fileReader.ready()) {
+                characters.add(fileReader.read());
+            }
+
+            for (int i = 1; i < characters.size(); i+=2) {
+                fileWriter.write(characters.get(i));
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

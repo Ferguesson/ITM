@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/07_IO_NIO_Seralization.iml" filepath="$PROJECT_DIR$/.idea/07_IO_NIO_Seralization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1801/task1801.iml" filepath="$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1801/task1801.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1805/task1805.iml" filepath="$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1805/task1805.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1809/task1809.iml" filepath="$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1809/task1809.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1810/task1810.iml" filepath="$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1810/task1810.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1811(Decorator)/task1811(Decorator).iml" filepath="$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1811(Decorator)/task1811(Decorator).iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1822/task1822.iml" filepath="$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1822/task1822.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1824/task1824.iml" filepath="$PROJECT_DIR$/io-nio-main/08 Знакомство с потоками InputStreamOutputStream, FileInputStream, FileOutputStream, Wrapper/task1824/task1824.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1902(adapter)/task1902(adapter).iml" filepath="$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1902(adapter)/task1902(adapter).iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1906/task1906.iml" filepath="$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1906/task1906.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1907/task1907.iml" filepath="$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1907/task1907.iml" />
+      <module fileurl="file://$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1928/task1928.iml" filepath="$PROJECT_DIR$/io-nio-main/09 Знакомство с потоками ReaderWriter, FileReaderFileWriter, Adapter/task1928/task1928.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2001/task2001.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2001/task2001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2003(properties)/task2003(properties).iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2003(properties)/task2003(properties).iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2005/task2005.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2005/task2005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2006/task2006.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2006/task2006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2009/task2009.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2009/task2009.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2011/task2011.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2011/task2011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2016/task2016.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2016/task2016.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2017/task2017.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2017/task2017.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2018/task2018.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2018/task2018.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2019/task2019.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2019/task2019.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization-main/10 Сериализация/task2021/task2021.iml" filepath="$PROJECT_DIR$/serialization-main/10 Сериализация/task2021/task2021.iml" />
+    </modules>
+  </component>
+</project>

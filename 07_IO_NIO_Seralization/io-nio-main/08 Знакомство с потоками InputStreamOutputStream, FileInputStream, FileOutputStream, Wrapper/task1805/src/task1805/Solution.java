@@ -30,5 +30,19 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) throws Exception {
+        InputStreamReader isReader = new InputStreamReader(System.in);
+        BufferedReader reader = new BufferedReader(isReader);
+        String fileName = reader.readLine();
+
+        Set<Integer> byteSet = new TreeSet<>();
+        try (FileInputStream fileInputStream = new FileInputStream(fileName)) {
+            while (fileInputStream.available() > 0) {
+                byteSet.add(fileInputStream.read());
+            }
+        }
+
+        for (Integer currentByte : byteSet) {
+            System.out.print(currentByte + " ");
+        }
     }
 }

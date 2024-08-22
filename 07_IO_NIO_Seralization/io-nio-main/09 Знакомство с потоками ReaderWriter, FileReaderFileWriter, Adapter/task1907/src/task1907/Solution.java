@@ -22,5 +22,37 @@ Requirements:
 
 public class Solution {
     public static void main(String[] args) {
+        final String WORLD = "world";
+        int worldWordCount = 0;
+
+        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+
+        String fileFrom = "";
+        try {
+            fileFrom = console.readLine();
+            console.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        try (FileReader fileReader = new FileReader(fileFrom);
+             BufferedReader bufferedReader = new BufferedReader(fileReader)) {
+
+            String read = "";
+            while ((read = bufferedReader.readLine()) != null) {
+                String[] words = read.split("\\p{P}");
+                for (String word : words) {
+                    if (word.equalsIgnoreCase(WORLD)) {
+                        worldWordCount++;
+                    }
+                }
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(worldWordCount);
     }
 }

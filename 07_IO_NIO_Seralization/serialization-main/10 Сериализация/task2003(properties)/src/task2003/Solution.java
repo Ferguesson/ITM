@@ -23,11 +23,22 @@ public class Solution {
     public static Map<String, String> runtimeStorage = new HashMap<>();
 
     public static void save(OutputStream outputStream) throws Exception {
-        //напишите тут ваш код
+        Properties prop = new Properties();
+
+        for (Map.Entry<String, String> pair : runtimeStorage.entrySet()) {
+            prop.setProperty(pair.getKey(), pair.getValue());
+        }
+
+        prop.store(outputStream, null);
     }
 
     public static void load(InputStream inputStream) throws IOException {
-        //напишите тут ваш код
+        Properties prop = new Properties();
+        prop.load(inputStream);
+
+        for (Map.Entry<Object, Object> pair : prop.entrySet()) {
+            runtimeStorage.put(pair.getKey().toString(), pair.getValue().toString());
+        }
     }
 
     public static void main(String[] args) {
